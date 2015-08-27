@@ -1,0 +1,24 @@
+{
+  "name": "octopi",
+  "version": "1.0.0",
+  "description": "JSON path expression evaluator",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha -- --recursive -R spec -r should tests/**/*"
+  },
+  "keywords": [
+    "json",
+    "jpath",
+    "jxpath",
+    "xpath",
+    "octopi",
+    "octo"
+  ],
+  "author": "Chris Kellendonk",
+  "license": "MIT",
+  "devDependencies": {
+    "istanbul": "^0.3.18",
+    "mocha": "^2.2.5",
+    "should": "^7.0.4"
+  }
+}
