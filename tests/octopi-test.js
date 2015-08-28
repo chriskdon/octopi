@@ -15,7 +15,7 @@ describe('octopi', function () {
   it('should access value with dot notation', function () {
     var result1 = octopi.parse("$.flat", testObj);
     var result2 = octopi.parse("$.nested.base", testObj);
-    var result3 = octopi.parse("$.nested.layer.value", testObj);
+    var result3 = octopi.parse("$.nested.layer.value  ", testObj);
 
     result1.should.equal(testObj.flat);
     result2.should.equal(testObj.nested.base);
